@@ -42,6 +42,7 @@ target 'awschime' do
     # An absolute path to your application root.
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
+  pod 'AmazonChimeSDK-Bitcode', '0.19.1'
 
   target 'awschimeTests' do
     inherit! :complete
